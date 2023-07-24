@@ -50,46 +50,25 @@ body {
   text-decoration: none;
   color: black;
 }
-.div3 {
-  margin: 0;
-  padding-bottom: 25px;
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
 }
-.div3 .carrusel-padre {
-    text-align: center;
-    margin: -35px;
+.elemento{
+  flex: 1 0 auto;
+  margin: 0 20px;
+  width: 550px;
+  height: 350px;
 }
-.carrusel-padre {
-  display: flex;
-  width: 1300px;
-  height: 430px;
-  text-align: center;
+.image-carrusel{
+  width: 550px;
+  height: 350px;
+  transition: 0.5s;
+  object-fit:contain;
 }
-
-.carrusel-padre a {
-  flex: 0 0 25%; /* Hacemos que cada imagen ocupe el 25% del ancho */
-  max-width: 100%; /* Evitamos que las imágenes se agranden más allá de su tamaño original */
-  height: 100%; /* Establecemos una altura fija para que todas las imágenes tengan el mismo tamaño */
-  object-fit: cover; /* Ajustamos las imágenes al tamaño del contenedor */
-  transition: 0.5s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.images-carrusel {
-  width: 350px;
-  height: 250px;
-  padding: 0px;
-}
-
-section a img {
-  width: 100%; 
-  transition: 0.5s ease;
-}
-
-section a:hover {
-  transform: scale(1.1); 
-  cursor: pointer;
+.image-carrusel:hover{
+  transform: scale(1.2);
 }
 .div4{
     flex-direction: column;
@@ -104,14 +83,18 @@ section a:hover {
     display: flex;
     align-items: flex-start;
     margin-top:25px;
+    border-color: #aaaaaa;
+    border-width: 1,5px;
+    border-style:dashed;
 }
 .text-tittle-fifa{
     padding:25px;
   }
 
 .video-fifa iframe{
-    width: 1600px;
-    margin-left: 25px;
+  width: 1900px;
+  margin-left: 25px;
+  padding:30px;
 }
 .video-streetfighter{
     margin-left: 25px;
@@ -120,6 +103,10 @@ section a:hover {
     align-items: flex-start;
     margin-top:25px;
     flex-direction: row-reverse;
+    border-color: #aaaaaa;
+    border-width: 1,5px;
+    border-style:dashed;
+
 }
 .text-tittle-street{
     padding:25px;
