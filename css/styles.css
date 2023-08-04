@@ -11,28 +11,46 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+.btn-primary{
+  color: rgb(23, 80, 80);
+}
+.btn-primary:hover{
+  text-transform: uppercase;
+  transition: 3s;
+  background:darkred
+}
 .navbar{
   background-color: none;
   padding-top: 35px;
   padding-left: 20px;
   font-size: 40px;
 }
+.dropdown-menu.show {
+  display: block;
+  background: #243dfd;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+.d-grid{
+  margin: 25px;
+  font-size: 40px;
+  padding-top: 0px;
+}
 .text-carrusel{
-  font-size: 42px;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-right: 1px;
 }
 .nav-item:hover{
-  color: red;
+  color: rgb(28, 87, 177);
 }
 .nav-link:hover{
-    color: red;
+    color: rgb(28, 87, 177);
 }
 .dropdown-item:hover{
-    color: red;
-}
-.text-carrusel{
-  text-align: center;
-  padding-top: 25px;
-  font-size: 35px;
+    color: rgb(28, 87, 177);
 }
 .accordion{
   padding: 24px;
