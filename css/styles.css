@@ -109,3 +109,16 @@ iframe{
   width: 60px;
   height: 60px;
 }
+.form-buy{
+  font-size: 25px;
+  color:#02b6b6;
+  margin-top: 0px;
+  border:black 2px dashed;
+  border-radius: 25px;
+  padding: 25px;
+  
+}
+.text-condition{
+  text-align: left;
+  margin-left: -30px;
+}
