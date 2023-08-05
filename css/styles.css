@@ -4,6 +4,7 @@
   font-family: "Roboto Mono", monospace;
   margin: 0; 
 }
+/* Index */
 body {
   background-image: linear-gradient(#02b6b6, #083030, red);
   margin: 0;
@@ -32,6 +33,11 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   color: rgb(1, 26, 26);
+}
+.logos-redes{
+  width: 21px;
+  height: 21px;
+  background: none;
 }
 .d-grid{
   margin: 25px;
@@ -66,23 +72,37 @@ body {
 .acordeon-promo{
   border-radius: 0 !important;
 }
-
+/*PROMOCIONES*/
 .container{
   
   border-radius: 25px;
   padding: 25px;
+}
+
+.col-lg-8{
+  padding-top: 25px ;
 }
 img{
   width: 100%;
   height: 100%;
   border-radius: 25px;
 }
-
+.section-cards{
+  margin-bottom: 25px;
+}
 .card{
   padding: 15px;
   margin: 25px;
 }
-
+.critics{
+  padding-left: 0px;
+  padding-bottom:25px
+}
+.critics-bars{
+  margin: 3px;
+  padding: 3px;
+  font-size: large;
+}
 iframe{
   width: 70%;
   padding: 25px;
@@ -91,6 +111,8 @@ iframe{
 .text-video{
     text-align: center;
 }
+
+/*FLOTANTE NAV*/
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -121,6 +143,8 @@ iframe{
   width: 60px;
   height: 60px;
 }
+
+/*FORMULARIO DE COMPRA*/
 .form-buy{
   font-size: 25px;
   color:#02b6b6;
