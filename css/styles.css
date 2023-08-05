@@ -2,7 +2,7 @@
 
 * {
   font-family: "Roboto Mono", monospace;
-  margin: 0;  
+  margin: 0; 
 }
 body {
   background-image: linear-gradient(#02b6b6, #083030, red);
@@ -12,11 +12,11 @@ body {
   display: none;
 }
 .btn-primary{
-  color: rgb(23, 80, 80);
+  color: rgb(1, 26, 26);
 }
 .btn-primary:hover{
   text-transform: uppercase;
-  transition: 3s;
+  transition: 0.5s;
   background:darkred
 }
 .navbar{
@@ -31,7 +31,7 @@ body {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  color: black;
+  color: rgb(1, 26, 26);
 }
 .d-grid{
   margin: 25px;
@@ -54,7 +54,19 @@ body {
 }
 .accordion{
   padding: 24px;
+  
 }
+.accordion-button{
+  color: black;
+  font-size: 22px;
+}
+.accordion-body{
+  color: rgb(1, 26, 26);
+}
+.acordeon-promo{
+  border-radius: 0 !important;
+}
+
 .container{
   
   border-radius: 25px;

@@ -67,18 +67,18 @@
                 <form class="form-buy">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nombre:</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="introduce tu nombre">
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="introduce tu nombre" required>
                       <label for="exampleInputEmail1" class="form-label">Mail:</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mail">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mail" required>
                       <div id="emailHelp" class="form-text"></div>
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Tu numero:</label>
-                      <input type="tel" class="form-control" id="exampleInputPassword1" maxlength="10" minlength="10">
+                      <input type="tel" class="form-control" id="exampleInputPassword1" maxlength="10" minlength="10" required>
                     </div>
                     <div>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Elegí tu juego en promo:</option>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option value="">Elegí tu juego en promo:</option>
                             <option value="1">EASport 2024 - 25$</option>
                             <option value="2">The Last Of Us - 20$</option>
                             <option value="3">Street Fighter 6 - 23$</option>
@@ -86,11 +86,11 @@
                     </div>
                     <div class="mb-3 form-check">
                         <p class="text-condition"><strong> Aceptas que te enviemos toda la info por WhatsApp y mail?</strong></p>
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                       <label class="form-check-label" for="exampleCheck1">Acepto</label>
                     </div>
         
-                    <button type="submit" class="btn btn-primary" required="checkbox">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                   </form>
                   
             </div>
@@ -122,6 +122,11 @@
         </div>
       </div>
       
+      <div class="whatsapp-button">
+        <a href="https://api.whatsapp.com/send?phone=543517072101" target="_blank">
+          <img class="logo-wsp" src="../images/logo-wsp.svg" alt="WhatsApp">
+        </a>
+      </div>
 </body>
 </html>
 
