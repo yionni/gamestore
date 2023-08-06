@@ -48,6 +48,7 @@ body {
   font-size: 40px;
   margin-top: 15px;
   margin-right: 1px;
+  text-align: center;
 }
 .nav-item:hover{
   color: rgb(28, 87, 177);
@@ -157,4 +158,25 @@ iframe{
 .text-condition{
   text-align: left;
   margin-left: -30px;
+}
+/*FOOTER*/
+.h2-footer{
+  color: black;
+  font-size: 25px;
+  margin-top: 0px;
+  border:black 2px dashed;
+  border-radius: 25px;
+  padding: 25px;
+}
+.text-footer{
+  color: black;
+  margin-top: 0px;
+  border:black 2px dashed;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 20px;
+}
+.atencion-cliente{
+padding-top: 90px ;
+padding-bottom: 25px;
 }
