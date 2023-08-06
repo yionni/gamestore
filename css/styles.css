@@ -116,13 +116,13 @@ iframe{
 /*FLOTANTE NAV*/
 .whatsapp-button {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 30px;
   z-index: 999;
-  background-color: #01d850;
-  border-radius: 50%;
+  background:none;
+  border-radius: 100%;
   padding: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .whatsapp-button a {
@@ -141,8 +141,8 @@ iframe{
   height: 100px;
 }
 .whatsapp-button img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 /*FORMULARIO DE COMPRA*/
