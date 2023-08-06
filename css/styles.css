@@ -71,12 +71,24 @@ body {
 .accordion-button{
   color: black;
   font-size: 22px;
+  background-color: rgb(28, 87, 177);
+
 }
 .accordion-body{
   color: rgb(1, 26, 26);
+  background-color: #02b6b6;
 }
 .acordeon-promo{
   border-radius: 0 !important;
+  
+}
+.links-acordeon{
+  text-decoration: none;
+  color: #02b6b6;
+}
+.links-acordeon:hover{
+  text-decoration: none;
+  color:darkred;
 }
 /*PROMOCIONES*/
 .container{
