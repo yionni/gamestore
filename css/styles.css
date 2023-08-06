@@ -18,7 +18,7 @@ body {
 .btn-primary:hover{
   text-transform: uppercase;
   transition: 0.5s;
-  background:darkred
+  background:darkred;
 }
 .navbar{
   background-color: none;
@@ -44,11 +44,16 @@ body {
   font-size: 40px;
   padding-top: 0px;
 }
+.caja-texto{
+  text-align: center;
+  width: 500px;
+}
 .text-carrusel{
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 15px;
   margin-right: 1px;
   text-align: center;
+  border:black 2px dashed;
 }
 .nav-item:hover{
   color: rgb(28, 87, 177);
@@ -121,7 +126,8 @@ iframe{
   z-index: 999;
   background:none;
   border-radius: 100%;
-  padding: 10px;
+  padding: 20px;
+  padding-top: 25px;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
