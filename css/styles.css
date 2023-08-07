@@ -112,6 +112,11 @@ img{
   padding: 15px;
   margin: 25px;
 }
+.card-text-p{
+  color:#0b166d;
+  font-size: 15px;
+  margin-top: 0;
+}
 .critics{
   padding-left: 0px;
   padding-bottom:25px
