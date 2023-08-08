@@ -209,6 +209,9 @@ iframe{
 padding-top: 90px ;
 padding-bottom: 25px;
 }
+.carrusel-iner{
+  border-radius: 25px;
+}
 
 /*card de catalogo que conllevan grid de boostrap y flexbox de para las cartas en catologo e inicio*/
 .fixed-image-size {
@@ -219,9 +222,9 @@ padding-bottom: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45vh;
-  width: 400px;
-  object-fit: cover;
+  height: 30vh;
+  
+  
   border-radius: 10px;
 }
 
