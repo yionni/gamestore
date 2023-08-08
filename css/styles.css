@@ -4,7 +4,7 @@
   font-family: "Roboto Mono", monospace;
   margin: 0; 
 }
-/* Index */
+/* Index - hamburguesa header */
 body {
   background-image: linear-gradient(#02b6b6, #083030, red);
   margin: 0;
@@ -64,6 +64,9 @@ body {
 .dropdown-item:hover{
     color: rgb(28, 87, 177);
 }
+
+/*Acordeon*/
+
 .accordion{
   padding: 24px;
   
