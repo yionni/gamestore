@@ -84,11 +84,11 @@ body {
 }
 .links-acordeon{
   text-decoration: none;
-  color: #02b6b6;
+  color:darkred;
 }
 .links-acordeon:hover{
   text-decoration: none;
-  color:darkred;
+  color:brown;
 }
 /*PROMOCIONES*/
 .container{
@@ -100,6 +100,8 @@ body {
 .col-lg-8{
   padding-top: 25px ;
 }
+/*card de catalogo que conllevan grid de boostrap y flexbox de para las cartas en catologo e inicio*/
+
 img{
   width: 100%;
   height: 100%;
@@ -121,6 +123,7 @@ img{
   padding-left: 0px;
   padding-bottom:25px
 }
+
 .critics-bars{
   margin: 3px;
   padding: 3px;
@@ -223,9 +226,11 @@ padding-bottom: 25px;
   max-width: 100%;
   height: auto;
 }
+.critics {
+  margin-top: auto; 
+}
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
 }
