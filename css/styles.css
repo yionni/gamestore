@@ -203,3 +203,29 @@ iframe{
 padding-top: 90px ;
 padding-bottom: 25px;
 }
+
+/*card de catalogo que conllevan grid de boostrap y flexbox de para las cartas en catologo e inicio*/
+.fixed-image-size {
+  max-width: 100%;
+  height: auto;
+}
+.card img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.fixed-image-size {
+  max-width: 100%;
+  height: auto;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
