@@ -58,6 +58,11 @@ body {
 .nav-item:hover{
   color: rgb(28, 87, 177);
 }
+
+.nav-link{
+  padding-top: 0px;
+}
+
 .nav-link:hover{
     color: rgb(28, 87, 177);
 }
@@ -223,8 +228,6 @@ padding-bottom: 25px;
   justify-content: center;
   align-items: center;
   height: 30vh;
-  
-  
   border-radius: 10px;
 }
 
@@ -239,4 +242,8 @@ padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.carousel-inner{
+  border-radius: 25px;
 }
